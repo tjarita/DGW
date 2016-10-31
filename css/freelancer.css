@@ -463,7 +463,7 @@ section.success {
 
   position: relative;
 
-  max-width: 400px;
+  max-width: 300px;
 
   margin: 0 auto;
 
@@ -472,7 +472,7 @@ section.success {
 
 #portfolio .portfolio-item .portfolio-link .caption {
 
-  background: rgba(24, 188, 156, 0.9);
+  
 
   position: absolute;
 
@@ -741,7 +741,7 @@ footer .footer-below {
 
   color: white;
 
-  background-color: #2C3E50;
+  background-color: #1974D2;
 
   border-color: #2C3E50;
 
@@ -762,7 +762,7 @@ footer .footer-below {
 
   color: white;
 
-  background-color: #1a242f;
+  background-color: #429fff;
 
   border-color: #161f29;
 
@@ -810,7 +810,7 @@ fieldset[disabled] .btn-primary:active,
 
 fieldset[disabled] .btn-primary.active {
 
-  background-color: #2C3E50;
+  background-color: #1974D2;
 
   border-color: #2C3E50;
 
@@ -819,7 +819,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-primary .badge {
 
-  color: #2C3E50;
+  color: #1974D2;
 
   background-color: white;
 
@@ -1049,11 +1049,7 @@ fieldset[disabled] .btn-success.active {
 }
 
 
-.portfolio-modal .close-modal:hover {
 
-  opacity: 0.3;
-
-}
 
 
 .portfolio-modal .close-modal .lr {
