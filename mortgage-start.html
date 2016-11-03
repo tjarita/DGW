@@ -83,64 +83,53 @@
     </div>
 </div>-->
             <div class="form-group">
-                <label for="age" class="control-label">Age</label>
-                <input type="number" class="form-control" id="age" placeholder="Age" min=18 max=120>
-            </div>
-            <div class="form-group">
-                <label for="family" class="control-label">Family Consists Of</label>
+                <label for="family" class=" control-label">Loan Type</label>
                 <div class="btn-group btn-group-justified" data-toggle="buttons">
-                    <label class="btn btn-default active">Myself
-                        <input type="checkbox" autocomplete="off" checked > 
+                    <label class="btn btn-default active"> Refinance
+                          <input type="radio" name="options" id="refinance" autocomplete="off" checked> 
                         </label>
-                    <label class="btn btn-default"> Spouse
-                        <input type="checkbox" autocomplete="off"> 
+                    <label class="btn btn-default"> Purchase
+                            <input type="radio" name="options" id="purchase" autocomplete="off">  
                         </label>
-                    <label class="btn btn-default"> Others
-                        <input type="checkbox" autocomplete="off"> 
-                        </label>
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="family" class=" control-label">Investment Timeframe</label>
-                <div class="btn-group btn-group-justified" data-toggle="buttons">
-                    <label class="btn btn-default active">Short: Less than 3 Years
-                          <input type="radio" name="options" id="short" autocomplete="off" checked> 
-                        </label>
-                    <label class="btn btn-default"> Intermediate: 3 - 7 Years
-                            <input type="radio" name="options" id="medium" autocomplete="off">  
-                        </label>
-                    <label class="btn btn-default"> Long: 7+ Years
-                           <input type="radio" name="options" id="long" autocomplete="off"> 
+                    <label class="btn btn-default"> Home Equity Line
+                           <input type="radio" name="options" id="heloc" autocomplete="off"> 
                          </label>
                 </div>
             </div>
             <div class="form-group">
-                <label for="income" class=" control-label">Total Income</label>
-                <div class="input-group">
-                    <div class="input-group-addon">$</div>
-                    <input type="number" class="form-control" id="income" placeholder="Total Income">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="assets" class=" control-label">Total Liquid Assets</label>
-                <div class="input-group">
-                    <div class="input-group-addon">$</div>
-                    <input type="number" class="form-control" id="assets" placeholder="Total Liquid Assets">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="risk" class=" control-label">Risk Tolerance</label>
+                <label for="family" class=" control-label">Property Type</label>
                 <div class="btn-group btn-group-justified" data-toggle="buttons">
-                    <label class="btn btn-default active">
-                          <input type="radio" name="options" id="low" autocomplete="off" checked> Low Risk : Low Return
+                    <label class="btn btn-default active"> Single-Family Home
+                          <input type="radio" name="options" id="single" autocomplete="off" checked> 
                         </label>
-                    <label class="btn btn-default">
-                            <input type="radio" name="options" id="moderate" autocomplete="off">  Medium Risk : Medium Return
+                    <label class="btn btn-default"> Town House
+                            <input type="radio" name="options" id="town" autocomplete="off">  
                         </label>
-                    <label class="btn btn-default">
-                           <input type="radio" name="options" id="high" autocomplete="off"> High Risk : High Return
+                    <label class="btn btn-default"> Condominium
+                           <input type="radio" name="options" id="condo" autocomplete="off"> 
+                         </label>
+                    <label class="btn btn-default"> Multi-Family
+                           <input type="radio" name="options" id="multi" autocomplete="off"> 
                          </label>
                 </div>
+            </div>
+            <div class="form-group">
+                <label for="family" class=" control-label">Use</label>
+                <div class="btn-group btn-group-justified" data-toggle="buttons">
+                    <label class="btn btn-default active"> Primary Residence
+                          <input type="radio" name="options" id="primary" autocomplete="off" checked> 
+                        </label>
+                    <label class="btn btn-default"> Secondary Residence
+                            <input type="radio" name="options" id="secondary" autocomplete="off">  
+                        </label>
+                    <label class="btn btn-default"> Investment
+                           <input type="radio" name="options" id="investment" autocomplete="off"> 
+                         </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="zipcode" class="control-label">Zipcode</label>
+                <input type="number" class="form-control" id="zipcode" placeholder="Zipcode">
             </div>
             <div class="form-group">
                 <button type="button" id="submit" class="btn btn-default">Submit</button>
@@ -453,7 +442,6 @@
     <script src="js/contact_me.js"></script>
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
-
     <script src="js/sweetalert-dev.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -462,7 +450,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src="js/index.js"></script>
-    <script src="js/invest.js"></script>
+    <script src="js/insurance-start.js"></script>
 </body>
 
 </html>
