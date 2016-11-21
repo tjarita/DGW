@@ -113,7 +113,7 @@ header img {
 }
 
 header .intro-text {
-  padding: 60px 0 0
+  padding: 50px 0 0
 }
 
 header .intro-text .name {
@@ -129,9 +129,25 @@ header .intro-text .skills {
   font-weight: 300;
 }
 
-@media (min-width: 768px) {
-  header .container {
+@media (max-width: 767px) {
+  header  {
     padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  header .intro-text .name {
+    font-size: 1.5em;
+  }
+  header .intro-text .skills {
+    font-size: 2.5em;
+  }
+  header .img-responsive {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  header  {
+    padding-top: 100px;
     padding-bottom: 20px;
   }
   header .intro-text .name {
@@ -142,12 +158,29 @@ header .intro-text .skills {
   }
 }
 
+@media (min-width: 992px) {
+  header  {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  header .intro-text .name {
+    font-size: 2em;
+  }
+  header .intro-text .skills {
+    font-size: 2.5em;
+  }
+  header .img-responsive {
+    width: 60%;
+  }
+}
+
 .navbar-custom {
   background: #ffffff;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
+  padding: 10px 0px
 }
 
 .navbar-custom a:focus {
@@ -163,6 +196,10 @@ header .intro-text .skills {
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
   color: #429fff;
+}
+
+.navbar-brand {
+  font-size: 2em;
 }
 
 .navbar-custom .navbar-nav {
@@ -209,7 +246,8 @@ header .intro-text .skills {
   border-color: #429fff;
 }
 
-@media (min-width: 768px) {
+
+/*@media (min-width: 768px) {
   .navbar-custom {
     padding: 15px 0;
     -webkit-transition: padding 0.3s;
@@ -226,12 +264,12 @@ header .intro-text .skills {
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
-    font-size: 1.5em;
+    font-size: 2em;
   }
-}
+}*/
 
 section {
-  padding: 50px 0;
+  padding: 20px 0;
 }
 
 section h2 {
@@ -603,4 +641,27 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+
+#capabilities-platforms {
+  height: 105px;
+  /*background-color: #eee;*/
+  white-space: nowrap;
+  width: 100%;
+  display: table;
+}
+
+.platform-image {
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+  display: table-cell;
+  /*border-style: solid;
+  border-width: 2px;
+  border-color: red;*/
+}
+
+.platform-image img {
+  max-width: 100%;
 }
