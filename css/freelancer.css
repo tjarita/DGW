@@ -92,7 +92,7 @@ header {
   text-align: center;
   background: #afafaf;
   color: white;
-  padding: 0 0 20px 0
+  padding: 0 0 0px 0
 }
 
 
@@ -113,7 +113,7 @@ header img {
 }
 
 header .intro-text {
-  padding: 50px 0 0
+  padding: 20px 0 0
 }
 
 header .intro-text .name {
@@ -131,8 +131,8 @@ header .intro-text .skills {
 
 @media (max-width: 767px) {
   header  {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    /*padding-top: 50px;*/
+    /*padding-bottom: 20px;*/
   }
   header .intro-text .name {
     font-size: 1.5em;
@@ -147,8 +147,8 @@ header .intro-text .skills {
 
 @media (min-width: 768px) {
   header  {
-    padding-top: 100px;
-    padding-bottom: 20px;
+    /*padding-top: 100px;*/
+    /*padding-bottom: 20px;*/
   }
   header .intro-text .name {
     font-size: 2em;
@@ -160,8 +160,8 @@ header .intro-text .skills {
 
 @media (min-width: 992px) {
   header  {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    /*padding-top: 50px;*/
+    /*padding-bottom: 20px;*/
   }
   header .intro-text .name {
     font-size: 2em;
